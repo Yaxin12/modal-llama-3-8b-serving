@@ -2,6 +2,14 @@
 
 Make sure you have signed up for a [Modal account](https://modal.com/).
 
+Clone this repo like this or use [VSCode's command](https://code.visualstudio.com/docs/sourcecontrol/intro-to-git#_clone-a-repository-locally): 
+
+```bash
+git clone https://github.com/dsba6010-llm-applications/modal-llama-3-8b-serving.git
+```
+
+Then `cd` into your new folder `modal-llama-3-8b-serving`.
+
 To run, I'm using Python 3.10 on a Mac.
 
 ```python
@@ -10,6 +18,10 @@ source venv/bin/activate
 python -m pip install --upgrade pip
 python -m pip install -r requirements.txt
 ```
+
+> [!TIP]
+> If you're using Windows CMD, the 2nd line will be `.\venv\Scripts\activate.bat`. 
+> Alternatively, if you're using Windows PowerShell, it would be `.\venv\Scripts\activate.ps1`
 
 To setup Modal locally:
 
